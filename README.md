@@ -80,7 +80,7 @@ A user-friendly **graphical interface** for conducting **port scans, DNS lookups
 
 ## 📡 Connect With Me  
 
-💼 **Portfolio:** [yourportfolio.com](https://yourportfolio.com)  
+
 📧 **Email:** [psakethreddy97@gmail.com](mailto:psakethreddy97@gmail.com)  
 📌 **LinkedIn:** [linkedin.com/in/saketh-reddy-145a7315b](https://au.linkedin.com/in/saketh-reddy-145a7315b)  
 💻 **GitHub:** [github.com/Tillu6](https://github.com/Tillu6)  
