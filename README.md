@@ -1,5 +1,6 @@
 # 🚀 Saketh Reddy Poreddy | Cybersecurity & Network Engineering Enthusiast  
 
+[![Portfolio](https://img.shields.io/badge/Portfolio-Website-blue?style=for-the-badge&logo=firefox)]([https://yourportfolio.com](https://tillu6.github.io/Portfolio-website/))  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://au.linkedin.com/in/saketh-reddy-145a7315b)  
 [![GitHub](https://img.shields.io/badge/GitHub-Projects-black?style=for-the-badge&logo=github)](https://github.com/Tillu6)  
 [![Email](https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail)](mailto:psakethreddy97@gmail.com)  
@@ -80,7 +81,7 @@ A user-friendly **graphical interface** for conducting **port scans, DNS lookups
 
 ## 📡 Connect With Me  
 
-
+💼 **Portfolio:** [https://tillu6.github.io/Portfolio-website/](https://tillu6.github.io/Portfolio-website/)  
 📧 **Email:** [psakethreddy97@gmail.com](mailto:psakethreddy97@gmail.com)  
 📌 **LinkedIn:** [linkedin.com/in/saketh-reddy-145a7315b](https://au.linkedin.com/in/saketh-reddy-145a7315b)  
 💻 **GitHub:** [github.com/Tillu6](https://github.com/Tillu6)  
