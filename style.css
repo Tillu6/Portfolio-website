@@ -1,0 +1,192 @@
+/* Futuristic & Stylish CSS (Optimized) */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #0a0a0a; /* Dark background */
+    color: #eee; /* Light text */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    overflow-x: hidden; /* Prevent horizontal scroll for canvas */
+}
+
+header {
+    background: linear-gradient(90deg, #222, #111);
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 0 10px #00ff99; /* Neon green shadow */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    color: #0ff; /* Neon green */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+nav a:hover {
+    color: #00ff99; /* Brighter neon green on hover */
+    text-shadow: 0 0 10px #00ff99;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Sections */
+#about, #projects, #skills, #contact, #certifications, #education, #experience {
+    padding: 50px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent dark background */
+    box-shadow: 0 0 15px #00ff99; /* Neon green glow */
+    backdrop-filter: blur(5px); /* Subtle blur effect */
+}
+
+
+
+/* Hero Section (Removed background image, using gradient) */
+#hero {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    background: linear-gradient(to bottom right, #1a1a1a, #000); /* Dark gradient */
+    box-shadow: 0 0 20px #00ff99;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+h2 {
+    color: #0ff;
+    text-shadow: 0 0 10px #00ff99;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+/* Futuristic Cards */
+.futuristic-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #00ff99;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 10px #00ff99;
+    transition: transform 0.3s ease-in-out;
+}
+
+.futuristic-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #00ff99;
+}
+
+.futuristic-card img {
+    margin-right: 15px;
+    border-radius: 8px;
+    width: 70px;
+    height: 70px;
+    box-shadow: 0 0 10px #00ff99;
+}
+
+.futuristic-card a {
+    color: #00bfff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.futuristic-card a:hover {
+    text-decoration: underline;
+    color: #00ff99;
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(90deg, #111, #222);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px #00ff99;
+}
+
+/* Animations */
+.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+section {
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+/* Skill Bars */
+.skill-bar-inner {
+    height: 20px;
+    background-color: #00ff99;
+    border-radius: 10px;
+    transition: width 1s ease-in-out;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        text-align: left;
+    }
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+    #hero {
+        height: 400px;
+    }
+    #about, #projects, #skills, #contact, #certifications, #education, #experience {
+        padding: 30px;
+    }
+}
+
+/* Canvas Background - Add this at the END of your CSS */
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Place behind other content */
+    pointer-events: none; /* Allow clicks to pass through */
+}
