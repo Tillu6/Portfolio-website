@@ -1,6 +1,6 @@
 # 🚀 Saketh Reddy Poreddy | Cybersecurity & Network Engineering Enthusiast  
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Website-blue?style=for-the-badge&logo=firefox)]([https://yourportfolio.com](https://tillu6.github.io/Portfolio-website/))  
+[![Portfolio](https://img.shields.io/badge/Portfolio-Website-blue?style=for-the-badge&logo=firefox)](https://tillu6.github.io/Portfolio-website/)  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://au.linkedin.com/in/saketh-reddy-145a7315b)  
 [![GitHub](https://img.shields.io/badge/GitHub-Projects-black?style=for-the-badge&logo=github)](https://github.com/Tillu6)  
 [![Email](https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail)](mailto:psakethreddy97@gmail.com)  
@@ -17,7 +17,7 @@ Hello! I am **Saketh Reddy Poreddy**, a passionate **Cybersecurity Professional*
 
 ## 🏆 Certifications  
 
-📜 **View All Certifications →** [Here](https://yourportfolio.com#certifications)  
+📜 **View All Certifications →** [Here](https://tillu6.github.io/Portfolio-website/#certifications)  
 
 - 🏅 **Telstra Cybersecurity Virtual Internship**  
 - 🏅 **IBM Cybersecurity Fundamentals**  
@@ -52,7 +52,7 @@ Hello! I am **Saketh Reddy Poreddy**, a passionate **Cybersecurity Professional*
 ✔️ PowerShell & Bash Scripting  
 ✔️ Software Installation & Backup Solutions  
 
-📜 **View All Skills →** [Here](https://yourportfolio.com#skills)  
+📜 **View All Skills →** [Here](https://tillu6.github.io/Portfolio-website/#skills)  
 
 ---
 
@@ -67,7 +67,7 @@ A Python-based **penetration testing automation tool** integrating **Nmap, Metas
 🔹 **GUI-Based Nmap Toolkit** → [GitHub](https://github.com/Tillu6/GUI-Nmap-Toolkit)  
 A user-friendly **graphical interface** for conducting **port scans, DNS lookups, and vulnerability assessments**.  
 
-📜 **Explore More Projects →** [Here](https://yourportfolio.com#projects)  
+📜 **Explore More Projects →** [Here](https://tillu6.github.io/Portfolio-website/#projects)  
 
 ---
 
