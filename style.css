@@ -20,6 +20,7 @@ canvas {
     pointer-events: none;
 }
 
+/* Header with Logo */
 header {
     background: linear-gradient(90deg, #222, #111);
     padding: 20px;
@@ -29,8 +30,20 @@ header {
     z-index: 100;
     box-shadow: 0 0 10px #00ff99;
     backdrop-filter: blur(5px);
+    display: flex;
+    align-items: center;
 }
 
+header .logo {
+    margin-right: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+/* Navigation (if needed) */
 nav ul {
     list-style: none;
     margin: 0;
@@ -59,7 +72,7 @@ html {
     scroll-behavior: smooth;
 }
 
-/* Sections */
+/* Sections for Portfolio (if used) */
 #about, #projects, #skills, #contact, #certifications, #education, #experience {
     padding: 50px;
     margin-top: 80px;
@@ -107,7 +120,7 @@ h2 {
     font-size: 28px;
 }
 
-/* Futuristic Cards */
+/* Futuristic Cards (for projects, etc.) */
 .futuristic-card {
     display: flex;
     align-items: center;
@@ -164,7 +177,7 @@ section {
     transform: translateY(20px);
 }
 
-/* Skill Bars */
+/* Skill Bars (if used) */
 .skill-bar-inner {
     height: 20px;
     background-color: #00ff99;
@@ -206,4 +219,95 @@ section {
     width: 20px;
     height: 20px;
     margin-right: 10px;
+}
+
+/* Cyber Risk Assessment Form Styles */
+#riskForm {
+    margin: 140px auto 20px auto; /* Top margin to clear the fixed header */
+    max-width: 600px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid #00ff99;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #00ff99;
+}
+
+#riskForm label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#riskForm select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background: #222;
+    color: #eee;
+}
+
+#riskForm button {
+    padding: 10px 20px;
+    background: #00ff99;
+    border: none;
+    border-radius: 5px;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#riskForm button:hover {
+    background: #00d1b2;
+}
+
+/* Tooltip Styles */
+.tooltip {
+    position: relative;
+    cursor: help;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 220px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 10px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%; /* Position above the tooltip element */
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Results Section */
+#results {
+    margin: 20px auto 40px auto;
+    max-width: 600px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid #00ff99;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #00ff99;
+}
+
+#results h2 {
+    text-align: center;
+    color: #0ff;
+}
+
+#results p {
+    font-size: 18px;
+    margin: 10px 0;
 }
