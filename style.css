@@ -1,3 +1,4 @@
+/* Futuristic & Stylish CSS (Optimized) */
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -134,20 +135,22 @@ h2 {
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    width: 600px; /* Ensures uniform size */
-    max-width: 90%;
+    width: 45%; /* Adjusted width for responsiveness and 3-column layout */
+    max-width: 600px; /* Keeps a maximum width */
     padding: 20px;
     border: 2px solid #00ff99;
     border-radius: 10px;
     background: rgba(0, 0, 0, 0.5);
     box-shadow: 0 0 15px #00ff99;
     transition: transform 0.3s ease-in-out;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
 }
 
 .project-card:hover {
     transform: scale(1.05);
     box-shadow: 0 0 20px #00ff99;
 }
+
 
 /* 🔹 Project Image */
 .project-card img {
@@ -180,33 +183,6 @@ h2 {
 .project-card a:hover {
     text-decoration: underline;
     color: #00ff99;
-}
-
-/* Footer */
-footer {
-    background: linear-gradient(90deg, #111, #222);
-    padding: 20px;
-    text-align: center;
-    box-shadow: 0 0 10px #00ff99;
-}
-
-/* 🔹 Contact Icons */
-.contact-info {
-    display: flex;
-    flex-direction: column;
-}
-
-.contact-info p,
-.contact-info a {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-}
-
-.contact-icon {
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
 }
 
 /* 🔹 Responsive Fixes */
