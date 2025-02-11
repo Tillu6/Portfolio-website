@@ -1,9 +1,9 @@
-/* 🚀 Advanced Futuristic UI with Glassmorphism & Animations */
+/* Futuristic Styling */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
-/* Global Styling */
 body {
     font-family: 'Poppins', sans-serif;
-    background: radial-gradient(circle, #0a0a0a, #000);
+    background-color: #0a0a0a;
     color: #eee;
     margin: 0;
     padding: 0;
@@ -11,6 +11,7 @@ body {
     overflow-x: hidden;
 }
 
+/* Particle Background */
 canvas {
     position: fixed;
     top: 0;
@@ -21,37 +22,23 @@ canvas {
     pointer-events: none;
 }
 
-/* Neon Glowing Header */
+/* Header */
 header {
-    background: rgba(20, 20, 20, 0.9);
-    backdrop-filter: blur(10px);
+    background: linear-gradient(90deg, #222, #111);
     padding: 20px;
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 100;
+    box-shadow: 0 0 10px #00ff99;
+    backdrop-filter: blur(5px);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    box-shadow: 0 0 15px #00ff99;
 }
 
-header h1 {
-    margin: 0;
-    font-size: 2rem;
-    color: #00ffcc;
-    text-shadow: 0 0 15px #00ff99;
-    transition: transform 0.3s;
-}
-
-header h1:hover {
-    transform: scale(1.1);
-}
-
-/* Navigation Menu */
 nav ul {
     list-style: none;
-    margin: 0;
     padding: 0;
     display: flex;
 }
@@ -64,144 +51,64 @@ nav a {
     color: #0ff;
     text-decoration: none;
     font-weight: bold;
-    transition: color 0.3s, text-shadow 0.3s;
+    transition: color 0.3s ease;
 }
 
 nav a:hover {
     color: #00ff99;
-    text-shadow: 0 0 10px #00ff99;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-/* Sections */
-section {
-    padding: 60px;
-    margin-top: 100px;
-    margin-bottom: 40px;
-    border-radius: 15px;
-    background: rgba(10, 10, 10, 0.6);
-    box-shadow: 0 0 20px #00ff99;
-    backdrop-filter: blur(10px);
 }
 
 /* Hero Section */
 #hero {
-    height: 600px;
+    height: 500px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #fff;
     background: linear-gradient(to bottom right, #1a1a1a, #000);
-    box-shadow: 0 0 30px #00ff99;
-    animation: fadeIn 1.5s ease-in-out;
 }
 
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(-20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-/* Project Section with 3D Cards */
-.projects-container {
+/* Project & Certification Containers */
+.projects-container, .certifications-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 30px;
+    gap: 20px;
+    perspective: 1000px;
 }
 
-.project-card {
-    width: 400px;
+/* 3D Card Effect */
+.project-card, .certification-card {
+    width: 45%;
+    max-width: 600px;
     padding: 20px;
-    border-radius: 15px;
-    background: rgba(0, 0, 0, 0.8);
-    box-shadow: 0 0 20px #00ff99;
-    transition: transform 0.5s, box-shadow 0.5s;
-    position: relative;
-    overflow: hidden;
-    backdrop-filter: blur(10px);
-}
-
-.project-card:hover {
-    transform: scale(1.05) rotateY(10deg);
-    box-shadow: 0 0 30px #00ffcc;
-}
-
-.project-card img {
-    width: 100%;
+    border: 2px solid #00ff99;
     border-radius: 10px;
+    background: rgba(0, 0, 0, 0.5);
     box-shadow: 0 0 15px #00ff99;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    transform-style: preserve-3d;
+    position: relative;
 }
 
-.project-card h3 {
+.project-card:hover, .certification-card:hover {
+    transform: scale(1.1) rotateY(5deg) rotateX(5deg);
+    box-shadow: 0 0 30px #00ff99, 0 0 60px rgba(0, 255, 153, 0.3);
+}
+
+.project-card img, .certification-card img {
+    width: 70px;
+    height: 70px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #00ff99;
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover img, .certification-card:hover img {
+    transform: scale(1.2);
+}
+
+h2 {
     color: #0ff;
-    margin-bottom: 10px;
-}
-
-.project-card p {
-    font-size: 16px;
-    margin-bottom: 15px;
-}
-
-.project-card a {
-    color: #00bfff;
-    font-weight: bold;
-    text-decoration: none;
-    display: inline-block;
-    padding: 8px 12px;
-    border-radius: 5px;
-    background: #00ff99;
-    transition: background 0.3s, transform 0.3s;
-}
-
-.project-card a:hover {
-    background: #00cc99;
-    transform: scale(1.1);
-}
-
-/* Animated Buttons */
-button {
-    padding: 10px 20px;
-    background: linear-gradient(90deg, #00ff99, #00ccff);
-    border: none;
-    border-radius: 5px;
-    color: #000;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background 0.3s, transform 0.3s;
-}
-
-button:hover {
-    background: linear-gradient(90deg, #00cc99, #0099ff);
-    transform: scale(1.1);
-}
-
-/* Footer */
-footer {
-    background: rgba(20, 20, 20, 0.9);
-    backdrop-filter: blur(10px);
-    padding: 20px;
-    text-align: center;
-    box-shadow: 0 0 15px #00ff99;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    nav ul {
-        flex-direction: column;
-        align-items: center;
-    }
-    .project-card {
-        width: 100%;
-    }
+    text-shadow: 0 0 10px #00ff99;
 }
